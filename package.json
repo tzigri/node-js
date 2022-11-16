@@ -9,6 +9,7 @@
   "main": "express1.js",
   "devDependencies": {},
   "scripts": {
+    "start": "node express1.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
