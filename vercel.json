@@ -2,9 +2,9 @@
     "version": 2,
     "name": "nodejs-mysql",
     "builds": [
-      { "src": "express1.js", "use": "@vercel/node" }
+      { "src": "express3_static.js", "use": "@vercel/node" }
     ],
     "routes": [
-      { "src": "/(.*)", "dest": "/express1.js" }
+      { "src": "/(.*)", "dest": "/express3_static.js" }
     ]
   }
